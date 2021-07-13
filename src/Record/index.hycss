@@ -1,0 +1,86 @@
+.record-box{
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    width: 60%;
+    height:50%;
+}
+.record{
+    width: 100%;
+    height:100%;
+    margin-left: -5%;
+}
+.recordContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.recordTitle {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    width: 100%;
+    height: 100px;
+    
+}
+.recordTxt {
+    width: 50%;
+    height: 100%;
+}
+
+.huyaLogon {
+    position: relative;
+    top: 30px;
+    left: 120px;
+    width: 100%;
+    height: 100px;
+    margin: 5% 0;
+}
+
+/*本轮得分 历史最高*/
+.currentScore,.maxScore,.recordBtn {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:20px 0 0 20px;
+}
+
+
+.currentScoreImg {
+    width: 50%;
+    height: 100%;
+}
+
+.maxScoreImg {
+    width: 50%;
+    height: 100%;
+}
+.currentScoreTxt {
+    line-height: 100px;
+    font-weight: 700;
+    fontSize: 45px;
+    color: #a74924;
+    
+}
+.maxScoreTxt {
+    line-height: 100px;
+    font-weight: 700;
+    fontSize: 45px;
+    color: #a74924;
+}
+/*底部按钮*/
+.onceMore{
+    width: 45%;
+    height: 90%;
+    margin: 1% 3% 0 0;
+    cursor:pointer;
+}
+.endGame {
+    width: 45%;
+    height: 100%;
+    margin: 0 0 0 3%;
+    cursor:pointer;
+}

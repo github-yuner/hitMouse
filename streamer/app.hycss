@@ -1,0 +1,25 @@
+.mouse-box {
+  position: relative;
+  display: flex;
+  margin: auto;
+  background-color: pink;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.mouse-down{
+  
+  width: 100px;
+  height: 100px;
+
+}
+.mouse-move-box{
+  position: absolute;
+  /*display: none;*/
+  bottom: 10px;
+  left: 50px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}

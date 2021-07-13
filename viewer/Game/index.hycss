@@ -1,0 +1,183 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width: 100%;
+  height: 100%;
+}
+.main-bg{
+  width:100%;
+  height:100%;
+}
+
+
+.header{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.scoring-area {
+  position: relative;
+  /*display: inline-flex;
+  flex-direction: row;*/
+  width: 370px;
+  height: 200px;
+  margin: 50px 0 0 0;
+}
+.count-down-bg{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height:340px;
+}
+.count-down-image{
+  width:200px;
+  height:100px;
+}
+.count-down-image{
+  transform: rotate(-3deg);
+}
+.count-down-music{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width:50px;
+    height:50px;
+}
+.time-bg{
+  position: relative;
+  width:150px;
+  height:90px;
+  transform: rotate(-3deg);
+}
+.count-down-time{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+.score-highest{
+  display: inline-flex;
+  flex-direction: row;
+  /*backgroundColor: #eeeeee;
+  opacity: 0.5;*/
+}
+
+.score{
+  display: inline-flex;
+  flex-direction: row;
+}
+.score-bg {
+  width: 172px;
+  height: 89px;
+}
+.score-text {
+  line-height: 89px;
+  margin-left: 43px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: orange;
+}
+.suspend {
+  position: absolute;
+  top: 95px;
+  right: 12px;
+}
+.suspend-image {
+  width: 80px;
+  height: 71px;
+}
+
+
+.hole-view {
+  width: 700px;
+  height: 500px;
+  margin: 250px auto 0 auto;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hole-bg {
+  position: relative;
+  /*flex: 5;*/
+  width: 192px;
+  height: 84px;
+  margin-top: 60px;
+}
+/*.mouse {
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 100px 0 0 0;
+}*/
+/*.mouse-down{
+  position: absolute;
+  /*display: none;*/
+  bottom: -30px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 100px 0 0 0;
+}*/
+/*为啥这里写了mouse-fixed-box自己不起作用，能使mouse-move-box起作用，还不能删？*/
+.mouse-fixed-box{
+  position:absolute;
+  
+  margin: auto;
+  backgroundColor: pink;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.mouse-move-box{
+  position: absolute;
+  bottom: -100px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+}
+.mouse-down-score {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 100px;
+  height: 50px;
+}
+.mouse-down{
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+}
+
+
+
+.score-highest,.score {
+  display: inline-flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+.score-highest-image{
+  width: 185px;
+  height: 100px;
+}
+.score-image {
+  width: 100px;
+  height: 89px;
+}
+.score-text{
+  font-size: 16px
+}
